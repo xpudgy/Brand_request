@@ -1,0 +1,109 @@
+{
+  "project": "xPudgy Icelands",
+  "website": "https://xpudgypenguins.netlify.app/",
+  "short_description": "xPudgy is a penguin-themed metaverse and game ecosystem powered by xP utility token.",
+  "description": "xPudgy is a community-first metaverse centered on collectible penguins, social gameplay and island conquest. The xP token powers in-game economies, governance and premium experiences: it is burned when purchasing rarity items in the shop to create a controlled deflationary mechanism, staked to earn rewards and access seasonal tournaments, and delegated for governance votes that steer product roadmap and treasury allocation. Value is created by aligning utility (shop, staking, gated content) with scarce cosmetic and gameplay assets, recurring engagement loops (missions, seasons, tournaments) and community-driven decisions via DAO.",
+  "token": {
+    "symbol": "xP",
+    "name": "xPudgy",
+    "network": "MultiversX",
+    "contract": "XPUDGY-6e28c2",
+    "max_supply": 1000000000,
+    "emission_model": "fixed",
+    "primary_utilities": [
+      "Shop purchases that burn a percentage of xP",
+      "Staking for rewards, boosts and early access",
+      "Access gating for conquest islands, missions and tournaments",
+      "Governance voting and treasury proposals",
+      "In-game currency for upgrades and cosmetic crafting"
+    ],
+    "deflation_mechanics": {
+      "shop_burn": "A configurable % of token spent in the official shop is burned on-chain to reduce supply over time.",
+      "event_fees": "Portions of entrance or tournament fees are burned or sent to treasury.",
+      "liquidity_burn": "Occasional community-driven liquidity burning events as governance proposals."
+    },
+    "staking": {
+      "tiers": [
+        { "term_days": 30, "reward_multiplier": 1.0 },
+        { "term_days": 90, "reward_multiplier": 1.3 },
+        { "term_days": 180, "reward_multiplier": 1.7 }
+      ],
+      "nft_boosts": "Selected NFTs grant additional staking multipliers or time-locked reward boosters."
+    },
+    "governance": {
+      "model": "snapshot-based weighted voting",
+      "proposal_types": [ "roadmap changes", "treasury allocations", "token economics adjustments", "special events" ]
+    },
+    "tokenomics_notes": "Supply allocation and vesting schedules are subject to governance and may be updated transparently on the token dashboard."
+  },
+  "use_cases": [
+    { "title": "Shop Burn", "detail": "Purchase cosmetics, consumables and limited items; a percentage of each purchase is burned to create long-term scarcity." },
+    { "title": "Staking & Rewards", "detail": "Stake xP to earn seasonal rewards, governance weight and access to alpha features." },
+    { "title": "Conquest & Tournaments", "detail": "Entry to island conquest mechanics and tournament systems requires xP for tickets or boosts." },
+    { "title": "Governance", "detail": "Holders propose and vote on roadmap changes, treasury disbursements and economic parameters." },
+    { "title": "Marketplace & Crafting", "detail": "xP used to craft upgrades and mint limited cosmetic items, with a burn component on some mints." }
+  ],
+  "links": {
+    "landing": "https://xpudgypenguins.netlify.app/",
+    "explorer": "https://explorer.multiversx.com/tokens/XPUDGY-6e28c2/accounts",
+    "buy": {
+      "dexscreener": "https://dexscreener.com/multiversx/erd1qqqqqqqqqqqqqpgqqz6vp9y50ep867vnr296mqf3dduh6guvmvlsu3sujc-XPUDGFUN-0bbceb",
+      "onedex": "https://swap.onedex.app/swap?firstToken=XPUDGY-6e28c2&secondToken=ONE-f9954f&state=Pro&type=simple"
+    },
+    "social": {
+      "twitter": "https://x.com/xpudgy_icelands?t=2qbK5xfPaf4kINDMSPMJrw&s=09",
+      "discord": "https://discord.gg/sHBqXr2tr",
+      "github": "https://github.com/xpudgy"
+    },
+    "docs": null,
+    "whitepaper": null,
+    "contact_email": null
+  },
+  "roadmap": [
+    {
+      "phase": "Phase 0 - Launch",
+      "eta": "Now",
+      "milestones": [
+        "Landing & brand polish",
+        "Pair listed on DexScreener",
+        "OneDex pool provisioned",
+        "Community launch rewards"
+      ]
+    },
+    {
+      "phase": "Phase 1 - Engagement",
+      "eta": "1-3 months",
+      "milestones": [
+        "NFT gallery & burn shop",
+        "Mini-games and leaderboards",
+        "Missions & retention",
+        "Mobile UX polish"
+      ]
+    },
+    {
+      "phase": "Phase 2 - Staking & Alpha",
+      "eta": "3-6 months",
+      "milestones": [
+        "Staking contracts & UI",
+        "Conquest alpha (islands)",
+        "Tournaments & seasons",
+        "Economic tuning"
+      ]
+    },
+    {
+      "phase": "Phase 3 - DAO & Scale",
+      "eta": "6-12 months",
+      "milestones": [
+        "DAO tooling & treasury",
+        "Creator SDK & marketplace",
+        "Multi-chain integrations"
+      ]
+    }
+  ],
+  "metadata": {
+    "status": "active",
+    "audience": [ "players", "collectors", "stakers", "dao-members" ],
+    "language": "en",
+    "last_updated": "2025-10-26T00:00:00Z"
+  }
+}
